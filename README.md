@@ -125,6 +125,7 @@ Checkpoint Saved:    sentiment_model_checkpoint.pt
 .
 ├── SentimentScope_starter.ipynb      # Complete notebook containing architecture, training & evaluation
 ├── sentiment_model_checkpoint.pt     # Trained PyTorch model weights (evaluated at 77.08% accuracy)
+├── requirements.txt                  # Python dependencies & version specifications
 ├── .gitignore                        # Git ignore rules for archives & environments
 └── README.md                         # Project documentation and performance metrics
 ```
@@ -135,8 +136,8 @@ Checkpoint Saved:    sentiment_model_checkpoint.pt
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/movie-review-sentiment-analysis.git
-cd movie-review-sentiment-analysis
+git clone https://github.com/prateek-kalwar-95/Transformers_for_Movie_Review_Sentiment_Analysis.git
+cd Transformers_for_Movie_Review_Sentiment_Analysis
 ```
 
 ### 2. Environment Setup
@@ -147,7 +148,8 @@ python -m venv venv
 # On Linux/macOS:
 source venv/bin/activate
 
-pip install torch torchvision transformers pandas numpy matplotlib
+# Install dependencies:
+pip install -r requirements.txt
 ```
 
 ### 3. Dataset Download & Extraction
